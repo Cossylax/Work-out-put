@@ -1,0 +1,61 @@
+@use '../abstract/variables' as x;
+#navbar{
+    
+    .visit{
+        font-size: 25px;
+        padding-left: 20px;
+        display: grid;
+    }
+     
+.hero{
+    background: rgb(114, 114, 204);
+    color: x.$sure-color;
+    font-weight: 200;
+    gap: 55%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.cool ul li{
+    list-style: none;
+}
+.cool ul li a {
+    text-decoration:none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.cool ul li a:hover{
+     background:coral;
+
+}
+
+.cool ul{
+    display: flex;
+    padding-right: 0;
+    font-size: 30px;
+    font-weight:200;
+}
+
+.tools{
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+    background:url(../img/img4.png) no-repeat right/cover;
+    .span{
+        background: coral;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    .span:hover{
+            background: x.$primary-color;
+            border-bottom:x.$primary-color;
+        }
+}
+}
